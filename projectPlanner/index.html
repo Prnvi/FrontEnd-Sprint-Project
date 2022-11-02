@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Planner</title>
+        <script defer src="./script.js"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="createTask-container">
+                <h3>Create new task</h3>
+                <table class="creatTaskInput-table">
+                    <tr>
+                        <td>Task Name</td>
+                        <td><input type="text" id="task-name"></td>
+                    </tr>
+                    <tr>
+                        <td>Description</td>
+                        <td><input type="text" id="description"></td>
+                    </tr>
+                    <tr>
+                        <td>Due Days</td>
+                        <td><input type="date" id="due-date"></td>
+                    </tr>
+                    <tr>
+                        <td>Priority</td>
+                            <td>
+                                <select id="priority">
+                                    <option value="high">High</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="low">Low</option>
+                                    </select>
+                            </td>
+                    </tr>
+                        <tr>
+                         <td>Task Status</td>
+                            <td>
+                                <select id="task-status">
+                                    <option value="to-do">To-Do</option>
+                                    <option value="in-progress">In-progress</option>
+                                    <option value="done">Done</option>
+                                </select>
+                            </td>
+                     </tr>
+                     <tr>
+                         <td> <button id="create-task-button" >create task</button></td>
+                     </tr>
+                </table>
+            </div>
+            <div class="showTasks-container">Show existing Tasks
+                <table id="table-heading" class="table-heading">
+                    <tr>
+                        <th>Task name</th>
+                        <th>Description</th>
+                        <th>Due Date</th>
+                        <th>Priority</th>
+                        <th>Task Status</th>
+                        <th>Remaining Days</th>
+                    </tr>
+                </table>
+                <table id="table-contents" class="table-contents" ></table>
+            </div>
+        </div>
+    </body>
+</html>
