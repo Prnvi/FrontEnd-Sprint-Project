@@ -1,0 +1,121 @@
+*{
+    background-image: url(./assets/clyde-rs-4XbZCfU2Uoo-unsplash.jpg);
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    
+    color: rgb(7, 1, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cityInput, #cityName, #inputContainer,button{
+ margin: 3px;
+padding:5px;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+}
+
+#weatherContainer{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: 10px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 1300px;
+    background: transparent;
+    
+}
+
+#iconsContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 240px;
+    width: 1200px; 
+    background: transparent;    
+    
+   
+}
+
+.icons{
+    display: inline-bock;
+    float: left;
+    height: 200px;
+    width: 165px;
+    margin: 20px;
+    border: 1px solid rgb(48, 47, 47);
+    border-radius: 10px;
+    font-size: small;
+    background: transparent;
+     
+     
+}
+
+.image{
+    height: 60px;
+    width: 50%;
+    background: transparent;
+}
+
+.imgClass{
+    background: transparent;
+}  
+
+.weather{
+    margin: 5px;
+   /*  background-color: rgb(106, 215, 255); */
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    background: transparent;
+}
+
+.minValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 85px;
+    margin: 0;
+    background: transparent;
+}
+
+
+.maxValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 85px;
+    margin: 0;
+    background: transparent;
+}
+
+.description{
+    background: transparent;
+    margin-left: 5px;
+}
+.input{
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(48, 47, 47);
+    margin-top: 20px;
+}
+.submit{
+    border: 1px solid rgb(48, 47, 47);
+    background: transparent;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+.head{
+    /* width:20%; */
+    background: transparent;
+    font-weight: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
